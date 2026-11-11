@@ -5,7 +5,7 @@
 Gemini, Groq, ChatGPT, Claude, DeepSeek y tu propia IA, juntas. En español y sin instalar nada.</p>
 
 <p align="center">
-  <a href="https://corderorauly-raullg57.github.io/nexo-ia/">🌐 Ver la web</a> ·
+  <a href="https://corderorauly-raullg57.github.io/nexoia/">🌐 Ver la web</a> ·
   <a href="GUIA.md">📘 Guía completa</a> ·
   <a href="https://wa.me/5355081288?text=Hola%2C%20quiero%20NEXO%20IA">💬 Pedirla por WhatsApp</a>
 </p>
