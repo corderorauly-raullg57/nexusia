@@ -1,4 +1,4 @@
-<p align="center"><img src="capturas/1-anuncios.png" alt="NEXO IA" width="100%"></p>
+<p align="center"><img src="1-anuncios.png" alt="NEXO IA" width="100%"></p>
 
 <h1 align="center">NEXO IA</h1>
 <p align="center"><b>Todas las IA en una sola app que nunca se queda sin respuesta.</b><br>
@@ -29,7 +29,7 @@ NEXO tiene una lista de IA y, con cada pregunta, prueba una tras otra hasta que 
 
 | Comparar dos IA | Packs por oficio |
 |---|---|
-| ![Comparar](capturas/2-comparar.png) | ![Packs](capturas/3-packs.png) |
+| ![Comparar](2-comparar.png) | ![Packs](3-packs.png) |
 
 ### 🔒 Privacidad
 
