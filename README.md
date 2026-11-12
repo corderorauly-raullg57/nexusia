@@ -1,40 +1,37 @@
-<p align="center"><img src="1-anuncios.png" alt="NEXO IA" width="100%"></p>
+# NexusIA · Agentes de IA para tu negocio
 
-<h1 align="center">NEXO IA</h1>
-<p align="center"><b>Todas las IA en una sola app que nunca se queda sin respuesta.</b><br>
-Gemini, Groq, ChatGPT, Claude, DeepSeek y tu propia IA, juntas. En español y sin instalar nada.</p>
+**NexusIA** crea agentes de IA que trabajan para tu negocio con **tu información**: te piden los datos con un formulario, hacen el trabajo paso a paso y te entregan el resultado en **Word, PDF o Excel**. Funciona con **cientos de IA gratis** gracias a FreeLLMAPI, y con IA de pago solo si tú la activas.
 
-<p align="center">
-  <a href="https://corderorauly-raullg57.github.io/nexoia/">🌐 Ver la web</a> ·
-  <a href="GUIA.md">📘 Guía completa</a> ·
-  <a href="https://wa.me/5355081288?text=Hola%2C%20quiero%20NEXO%20IA">💬 Pedirla por WhatsApp</a>
-</p>
+🌐 **Página:** https://corderorauly-raullg57.github.io/nexoia/
+⬇ **Descarga:** [NexusIA.zip](NexusIA.zip)
 
----
+![NexusIA](1-agente.png)
 
-### ⚡ El modo Automático
+## Qué hace
 
-NEXO tiene una lista de IA y, con cada pregunta, prueba una tras otra hasta que una responde. Si una se cae, se agota o está bloqueada en tu país, **salta sola a la siguiente** y tú ni lo notas.
-
-### ✨ En una sola app
-
-- 🧠 **14 motores de IA**: 8 gratis (incluida AI Horde, que funciona sin claves) y 6 de pago opcionales, bajo un interruptor de seguridad.
-- 🤖 **13 asistentes listos** + **6 packs por oficio** (18 asistentes más): restaurantes, belleza, tiendas, servicios técnicos, profesores y freelancers.
-- ⚖ **Comparar** dos IA lado a lado con la misma pregunta.
-- 🎨 **Crear imágenes** describiéndolas en español.
-- 🖼 **Ve fotos y lee documentos**.
-- 🖥 **Tu propia IA**: FreeLLMAPI, Ollama o LM Studio, sin cuotas y sin Internet.
-- 🛠 **Crea tus asistentes** y expórtalos como paquete.
-- 💾 Conversaciones guardadas en tu PC, búsqueda, copia de seguridad, voz, PDF.
-
-| Comparar dos IA | Packs por oficio |
+| | |
 |---|---|
-| ![Comparar](2-comparar.png) | ![Packs](3-packs.png) |
+| 📚 **Usa tu información** | Precios, catálogo, menú, manuales: responde con tus datos y no inventa |
+| 📝 **Formularios** | Te pide los datos en casillas |
+| 🔗 **Trabajo por pasos** | Analiza → redacta → revisa |
+| 📄 **Documentos** | Word, PDF, Excel, página web o Markdown |
+| 🧬 **Creador de agentes** | Describe tu negocio y la IA crea el agente |
+| ⚡ **Motor automático** | Si una IA se queda sin créditos, pasa sola a la siguiente |
 
-### 🔒 Privacidad
+## Instalar (Windows 10/11)
 
-Sin servidor: NEXO habla directo desde tu computadora con cada IA. Tus claves y conversaciones se quedan en tu PC.
+1. Descarga **NexusIA.zip** y descomprímelo (clic derecho › Extraer todo).
+2. Doble clic en **Instalar NexusIA.bat**.
+3. Elige: **[1] Ligero** (recomendado) · **[2] Completo** (también sin internet) · **[3] Solo NexusIA**.
+4. NexusIA se abre sola con el asistente de configuración.
 
----
+## Guías
 
-<p align="center"><b>NEXO IA</b> · by <b>HiSpaNet</b> · WhatsApp <a href="https://wa.me/5355081288">+53 5508 1288</a> · hispa.net.world@gmail.com</p>
+- 🚀 [INSTALACION.md](INSTALACION.md) — opciones, claves gratis y problemas
+- 📘 [GUIA.md](GUIA.md) — cómo usar NexusIA
+- 🧬 [CREAR-AGENTE.md](CREAR-AGENTE.md) — cómo crear agentes
+
+## ¿Lo quieres listo para tu negocio?
+
+Te preparamos NexusIA con tus agentes, tus precios y tu información, probado y listo para instalar con un doble clic.
+💬 WhatsApp **+53 5508 1288** · **HiSpaNet**

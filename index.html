@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>NEXO IA · Todas las IA en una sola app</title>
-<meta name="description" content="NEXO IA reúne Gemini, Groq, ChatGPT, Claude, DeepSeek y tu propia IA en una sola app en español. Elige sola la mejor IA disponible y nunca se queda sin respuesta.">
-<meta property="og:title" content="NEXO IA · Todas las IA en una sola app">
-<meta property="og:description" content="14 motores de IA, 13 asistentes, packs por oficio, imágenes y comparador. En español y sin instalar nada.">
-<meta property="og:image" content="1-anuncios.png">
+<title>NexusIA · Agentes de IA para tu negocio</title>
+<meta name="description" content="NexusIA: agentes de IA que trabajan para tu negocio con tu información. Presupuestos, propuestas, respuestas a clientes y documentos en Word, PDF y Excel. Con IA gratis.">
+<meta property="og:title" content="NexusIA · Agentes de IA para tu negocio">
+<meta property="og:description" content="Agentes con tu información, formularios, trabajo por pasos y documentos listos. Con cientos de IA gratis.">
+<meta property="og:image" content="1-agente.png">
 <style>
 :root{--bg:#0d0f13;--bg2:#13161c;--card:#181c23;--line:#262b35;--text:#ece9e2;--muted:#9a9ca4;--gold:#d6a64a;--gold2:#f0c977;--ink:#17130a;--ok:#4fbf7d}
 *{box-sizing:border-box}
@@ -146,182 +146,147 @@ footer .wrap{display:flex;gap:16px;flex-wrap:wrap;justify-content:space-between;
   .steps{gap:28px}
   .shot{margin-top:36px;border-radius:12px}
 }
+
+.opts{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:36px}
+.opt{background:var(--bg2);border:1px solid var(--line);border-radius:16px;padding:24px}
+.opt.rec{border-color:var(--gold);box-shadow:0 0 0 1px var(--gold)}
+.opt .tag{display:inline-block;font-size:12px;font-weight:700;color:var(--ink);background:var(--gold);border-radius:999px;padding:2px 10px;margin-bottom:10px}
+.opt h3{font-size:20px;margin-bottom:6px}.opt p{color:var(--muted);font-size:15px;margin:0}.opt b.sz{display:block;color:var(--gold2);margin-top:10px}
+.docs{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:34px}
+.doc{display:block;background:var(--bg2);border:1px solid var(--line);border-radius:16px;padding:22px;text-decoration:none;color:var(--text)}
+.doc:hover{border-color:var(--gold)}.doc i{font-style:normal;font-size:28px}.doc b{display:block;margin:8px 0 4px;font-size:18px}.doc span{color:var(--muted);font-size:15px}
+@media (max-width:960px){.opts,.docs{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-
 <nav><div class="wrap">
-  <a class="logo" href="#"><i>NX</i>NEXO IA</a>
-  <div class="links"><a href="#motor">Cómo funciona</a><a href="#funciones">Funciones</a><a href="#packs">Packs</a><a href="#preguntas">Preguntas</a><a href="https://github.com/corderorauly-raullg57/nexoia/blob/main/GUIA.md" target="_blank" rel="noopener">Guía</a></div>
-  <a class="btn" href="#" data-wa="Hola, quiero NEXO IA">Quiero NEXO</a>
+  <a class="logo" href="#"><i>NX</i>NexusIA</a>
+  <div class="links"><a href="#agentes">Agentes</a><a href="#listo">Te lo dejamos listo</a><a href="#instalar">Instalar</a><a href="#guias">Guías</a><a href="#preguntas">Preguntas</a></div>
+  <a class="btn" href="NexusIA.zip" download>⬇ Descargar</a>
 </div></nav>
 
 <header class="hero"><div class="wrap">
-  <div class="pill"><b>●</b> 14 motores de IA · 1 sola app · en español</div>
-  <h1>Todas las IA en una app que <em>nunca se queda sin respuesta</em></h1>
-  <p class="lead">Gemini, Groq, ChatGPT, Claude, DeepSeek y la IA de tu propia computadora, juntas. NEXO elige sola la mejor disponible y, si una falla, salta a la siguiente sin que lo notes.</p>
-  <div class="ctas">
-    <a class="btn" href="#" data-wa="Hola, quiero NEXO IA">💬 Pídela por WhatsApp</a>
-    <a class="btn sec" href="#motor">Ver cómo funciona ↓</a>
-  </div>
-  <div class="shot"><img src="1-anuncios.png" alt="NEXO IA escribiendo tres versiones de un anuncio para WhatsApp" width="2720" height="1720"></div>
-  <div class="trust"><span>✓ Sin instalar nada</span><span>✓ Funciona desde el primer segundo</span><span>✓ Tus datos solo en tu PC</span><span>✓ Carga con mala conexión</span></div>
+  <span class="pill"><b>●</b> Con cientos de IA gratis gracias a FreeLLMAPI</span>
+  <h1>Agentes de IA que <em>trabajan para tu negocio</em></h1>
+  <p class="lead">NexusIA crea agentes que conocen tus precios, tu catálogo y tu forma de trabajar. Te piden los datos, hacen el trabajo paso a paso y te entregan el presupuesto, la propuesta o la respuesta lista en Word, PDF o Excel.</p>
+  <div class="ctas"><a class="btn" href="NexusIA.zip" download>⬇ Descargar NexusIA gratis</a><a class="btn sec" href="#" data-wa="Hola, quiero que me preparen NexusIA con agentes para mi negocio">💬 Quiero que me lo dejen listo</a></div>
+  <div class="trust"><span>Windows 10 y 11</span><span>En español</span><span>IA gratis o de pago, tú eliges</span><span>Tus datos se quedan en tu PC</span></div>
+  <div class="shot reveal"><img src="1-agente.png" alt="NexusIA con agentes de una dulcería haciendo un presupuesto en Excel" width="1360" height="820"></div>
 </div></header>
 
-<div class="wrap reveal">
-  <div class="stats">
-    <div><b>14</b><span>motores de IA</span></div>
-    <div><b>31</b><span>asistentes listos</span></div>
-    <div><b>6</b><span>packs por oficio</span></div>
-    <div><b>$0</b><span>para empezar</span></div>
-  </div>
-</div>
-
-<section class="motor" id="motor" style="margin-top:90px"><div class="wrap">
-  <div class="reveal">
-    <span class="eyebrow">El corazón de NEXO</span>
-    <h2>Si una IA falla, ni te enteras</h2>
-    <p class="lead">Las IA gratis se agotan, se caen o se bloquean en algunos países. El modo <b>⚡ Automático</b> de NEXO prueba una tras otra, en el orden que tú decidas, hasta que una responde.</p>
-  </div>
-  <div class="flow">
-    <div class="chain reveal" aria-label="Ejemplo de la cadena automática">
-      <div class="node x">🖥 Mi IA propia <span class="st">✕ apagada</span></div>
-      <div class="arrow">↓ salta sola</div>
-      <div class="node x">✦ Google Gemini <span class="st">✕ cuota agotada</span></div>
-      <div class="arrow">↓ salta sola</div>
-      <div class="node ok">⚡ Groq <span class="st">✓ responde</span></div>
-      <div class="arrow">· · ·</div>
-      <div class="node" style="opacity:.7">🛟 AI Horde <span class="st" style="color:var(--muted)">reserva gratis, sin clave</span></div>
-    </div>
-    <ul class="reveal">
-      <li><i>🧭</i><div><b>Tú decides el orden</b><span>Pon primero tu favorita. Las demás quedan de reserva.</span></div></li>
-      <li><i>🔎</i><div><b>Siempre sabes quién respondió</b><span>Debajo de cada respuesta: la IA y el modelo que la escribió.</span></div></li>
-      <li><i>💳</i><div><b>Lo de pago, bajo llave</b><span>Las IA de pago nunca se usan solas, salvo que enciendas el interruptor. No gastas sin querer.</span></div></li>
-      <li><i>🆓</i><div><b>Funciona sin claves</b><span>Sin claves usa AI Horde, gratis aunque más lenta. Con una clave gratis de Gemini o Groq vuela.</span></div></li>
-    </ul>
+<section style="padding-top:30px"><div class="wrap">
+  <div class="stats reveal">
+    <div><b>0 $</b><span>IA gratis con créditos diarios</span></div>
+    <div><b>4</b><span>superpoderes por agente</span></div>
+    <div><b>5</b><span>formatos: Word, PDF, Excel, web, Markdown</span></div>
+    <div><b>1</b><span>doble clic para instalar</span></div>
   </div>
 </div></section>
 
-<section id="funciones"><div class="wrap">
+<section id="agentes"><div class="wrap">
   <div class="reveal" style="text-align:center">
-    <span class="eyebrow">Funciones</span>
-    <h2>Todo lo que haces con IA, en un solo lugar</h2>
+    <span class="eyebrow">Agentes</span>
+    <h2>Un agente es un empleado digital con un trabajo fijo</h2>
+    <p class="lead" style="margin:0 auto">Sabe quién es, qué datos pedir, qué información de tu negocio usar, qué pasos seguir y cómo entregarte el resultado.</p>
   </div>
   <div class="grid">
-    <div class="f reveal"><i>🤖</i><h3>13 asistentes listos</h3><p>Anuncios para WhatsApp, redes, atención al cliente, programador, traductor, emails, guiones de video, ideas de negocio y más.</p></div>
-    <div class="f reveal"><i>⚖</i><h3>Comparar dos IA</h3><p>La misma pregunta a dos IA a la vez, lado a lado. Te quedas con la mejor respuesta.</p></div>
-    <div class="f reveal"><i>🎨</i><h3>Crea imágenes</h3><p>Descríbela en español y NEXO la dibuja. Formatos para Estados, Reels y posts.</p></div>
-    <div class="f reveal"><i>🖼</i><h3>Ve tus fotos y documentos</h3><p>Adjunta una captura, una foto de producto o un archivo: la IA lo lee y lo analiza.</p></div>
-    <div class="f reveal"><i>✨</i><h3>Mejora tus preguntas</h3><p>Escribe tu idea a medias y NEXO la convierte en una petición clara y completa.</p></div>
-    <div class="f reveal"><i>🖥</i><h3>Tu propia IA</h3><p>Conecta FreeLLMAPI, Ollama o LM Studio: sin cuotas y, con Ollama, sin Internet.</p></div>
-    <div class="f reveal"><i>🛠</i><h3>Crea tus asistentes</h3><p>Dale instrucciones a tu medida y expórtalos como paquete para compartir o vender.</p></div>
-    <div class="f reveal"><i>💾</i><h3>Nada se pierde</h3><p>Conversaciones guardadas en tu PC, con buscador y copia de seguridad en un clic.</p></div>
-    <div class="f reveal"><i>🔊</i><h3>Voz y exportar</h3><p>Lee respuestas en voz alta, dicta con el micrófono, descarga o guarda en PDF.</p></div>
+    <div class="f reveal"><i>📚</i><h3>Usa tu información</h3><p>Cárgale tu lista de precios, catálogo, menú o manual. Responde con TUS datos y no inventa.</p></div>
+    <div class="f reveal"><i>📝</i><h3>Formularios</h3><p>Te pide los datos en casillas: cliente, producto, cantidad, fecha. Rellenas y pulsas un botón.</p></div>
+    <div class="f reveal"><i>🔗</i><h3>Trabaja por pasos</h3><p>Analiza, redacta y revisa, uno detrás de otro, como lo haría un profesional. Ves el avance.</p></div>
+    <div class="f reveal"><i>📄</i><h3>Entrega documentos</h3><p>Presupuestos en Excel, propuestas en Word, informes en PDF. Listos para enviar o imprimir.</p></div>
+    <div class="f reveal"><i>🧬</i><h3>Creador de agentes</h3><p>Describe tu negocio con tus palabras y la IA te arma el agente completo. Se instala con un botón.</p></div>
+    <div class="f reveal"><i>⚡</i><h3>Motor automático</h3><p>Si una IA se queda sin créditos del día, pasa sola a la siguiente. Nunca te deja sin respuesta.</p></div>
   </div>
 </div></section>
 
-<section style="padding-top:20px"><div class="wrap">
-  <div class="split reveal">
-    <div class="txt">
-      <span class="eyebrow">Comparar</span>
-      <h2>Dos IA, una pregunta, la mejor respuesta</h2>
-      <p class="lead">¿Gemini o Groq? ¿Tu IA local o ChatGPT? Pregunta una vez y mira las dos respuestas a la vez.</p>
-      <ul class="check">
-        <li><b>En paralelo:</b> las dos escriben al mismo tiempo.</li>
-        <li><b>Tú eliges</b> con cuál sigue la conversación.</li>
-        <li><b>Descubre</b> qué IA rinde mejor para cada tarea.</li>
-      </ul>
-    </div>
-    <div class="img"><img src="2-comparar.png" alt="Comparación de dos IA lado a lado en NEXO" width="2720" height="1720"></div>
+<section style="padding-top:20px"><div class="wrap split">
+  <div class="txt reveal">
+    <span class="eyebrow">Creador de agentes</span>
+    <h2>Dile qué necesitas. La IA crea tu agente.</h2>
+    <p class="lead">«Tengo una inmobiliaria y quiero anuncios de casas.» El Creador diseña el agente con sus instrucciones, su formulario y su formato de entrega.</p>
+    <ul class="check"><li><b>Listo en 2 minutos</b>, sin saber de IA</li><li><b>Se instala con un botón</b> y lo puedes editar después</li><li><b>Compártelo</b> o véndelo como paquete .nexus.json</li></ul>
   </div>
+  <div class="img reveal"><img src="2-creador.png" alt="Creador de agentes diseñando un agente inmobiliario" width="1360" height="820"></div>
 </div></section>
 
-<section id="packs" style="background:var(--bg2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)"><div class="wrap">
+<section style="padding-top:20px"><div class="wrap split rev">
+  <div class="txt reveal">
+    <span class="eyebrow">Trabajo por pasos</span>
+    <h2>Del formulario al documento, sin escribir nada más</h2>
+    <p class="lead">El agente Propuesta comercial analiza la necesidad, redacta la propuesta y la revisa. Al final, un clic y la tienes en Word.</p>
+    <ul class="check"><li><b>Agentes avanzados incluidos:</b> propuestas, presupuestos, plan de contenido, vendedor con tu catálogo</li><li><b>Pack Empresa:</b> selección de personal, soporte con tu manual, informe ejecutivo</li><li><b>Packs por oficio</b> para negocios de todo tipo</li></ul>
+  </div>
+  <div class="img reveal"><img src="3-flujo.png" alt="Agente trabajando en 3 pasos y entregando una propuesta en Word" width="1360" height="820"></div>
+</div></section>
+
+<section id="listo" style="background:var(--bg2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)"><div class="wrap split">
+  <div class="txt reveal">
+    <span class="eyebrow">Servicio HiSpaNet</span>
+    <h2>¿No tienes tiempo? Te lo dejamos listo.</h2>
+    <p class="lead">Preparamos tu NexusIA con agentes hechos para tu negocio y te lo entregamos para instalar con un doble clic.</p>
+    <ul class="check">
+      <li><b>Entrevista:</b> nos cuentas qué trabajo te quita tiempo</li>
+      <li><b>Diseño:</b> creamos tus agentes con tus precios, catálogo y forma de trabajar</li>
+      <li><b>Control de calidad:</b> probamos cada agente con casos reales</li>
+      <li><b>Entrega:</b> recibes un instalador y tu guía personalizada. Doble clic, Enter y a trabajar</li>
+      <li><b>Soporte</b> y actualizaciones cuando cambien tus precios o tu negocio</li>
+    </ul>
+    <p style="margin-top:24px"><a class="btn" href="#" data-wa="Hola, quiero que me preparen NexusIA con agentes para mi negocio">💬 Pedir mi NexusIA</a></p>
+  </div>
+  <div class="img reveal"><img src="4-guia.png" alt="Guía personalizada que recibe cada cliente dentro de NexusIA" width="1360" height="820"></div>
+</div></section>
+
+<section id="instalar"><div class="wrap">
   <div class="reveal" style="text-align:center">
-    <span class="eyebrow">Packs por oficio</span>
-    <h2>Un experto para cada negocio, con un clic</h2>
-    <p class="lead" style="margin:0 auto">18 asistentes especializados que hablan el idioma de tu oficio. Instálalos en un clic y empieza a trabajar.</p>
+    <span class="eyebrow">Instalar</span>
+    <h2>Descomprimes, doble clic y eliges</h2>
+    <p class="lead" style="margin:0 auto">El instalador mira tu PC, te recomienda una opción y descarga solo lo que hace falta.</p>
   </div>
-  <div class="packs reveal">
-    <div class="pk"><i>🍕</i><b>Restaurantes</b>Carta · Promos · Pedidos</div>
-    <div class="pk"><i>💈</i><b>Belleza</b>Citas · Estilos · Fidelidad</div>
-    <div class="pk"><i>👗</i><b>Tiendas</b>Fichas · Catálogo · Ventas</div>
-    <div class="pk"><i>🔧</i><b>Servicios</b>Presupuestos · Diagnóstico</div>
-    <div class="pk"><i>🎓</i><b>Profesores</b>Clases · Exámenes</div>
-    <div class="pk"><i>💻</i><b>Freelancers</b>Propuestas · Cobros</div>
-  </div>
-  <div class="split rev reveal" style="margin-top:60px">
-    <div class="txt">
-      <h3 style="font-size:26px;margin-bottom:10px">Y crea los tuyos</h3>
-      <p class="lead" style="font-size:17px">Escribe las instrucciones una vez y tendrás un asistente para siempre. Expórtalo como <b>paquete</b> y compártelo con tu equipo o véndelo a tu nicho.</p>
-    </div>
-    <div class="img"><img src="3-packs.png" alt="Galería de packs por oficio en NEXO" width="2720" height="1720"></div>
-  </div>
-</div></section>
-
-<section><div class="wrap">
-  <div class="split reveal">
-    <div class="txt">
-      <span class="eyebrow">Motores incluidos</span>
-      <h2>Gratis para empezar. Premium cuando lo quieras.</h2>
-      <p class="lead">Pega una clave gratis y listo. Las de pago son opcionales: pagas directo al proveedor y NEXO no cobra comisiones.</p>
-      <div class="ias">
-        <span>🛟 AI Horde <small>· sin clave</small></span><span>🌸 Pollinations</span><span>🖥 Mi IA propia</span><span>✦ Gemini</span><span>⚡ Groq</span><span>🔀 OpenRouter</span><span>🌬 Mistral</span><span>🧠 Cerebras</span>
-        <span class="p">💳 OpenAI</span><span class="p">💳 Claude</span><span class="p">💳 DeepSeek</span><span class="p">💳 Grok</span><span class="p">💳 + 2 personalizadas</span>
-      </div>
-    </div>
-    <div class="img"><img src="4-motor.png" alt="Configuración del motor de IA de NEXO" width="2720" height="1720"></div>
-  </div>
-</div></section>
-
-<section style="padding-top:20px"><div class="wrap">
-  <div class="reveal" style="text-align:center">
-    <span class="eyebrow">Empezar</span>
-    <h2>Listo en 2 minutos</h2>
+  <div class="opts">
+    <div class="opt rec reveal"><span class="tag">Recomendada</span><h3>[1] Ligero</h3><p>NexusIA + FreeLLMAPI: cientos de IA gratis de internet que se turnan solas.</p><b class="sz">~110 MB</b></div>
+    <div class="opt reveal"><h3>[2] Completo</h3><p>Todo lo anterior + Ollama: IA en tu PC que funciona sin internet. Necesita 8 GB de RAM.</p><b class="sz">~4,5 GB</b></div>
+    <div class="opt reveal"><h3>[3] Solo NexusIA</h3><p>Sin descargas. Usas claves gratis de Gemini, Groq u otras puestas en NexusIA.</p><b class="sz">1 MB</b></div>
   </div>
   <div class="steps">
-    <div class="step reveal"><h3>Ábrela</h3><p>Doble clic. Sin instalar, sin registrarte. Ya puedes escribir.</p></div>
-    <div class="step reveal"><h3>Dale más poder</h3><p>Pega una clave gratis de Gemini o Groq. La guía te lleva paso a paso.</p></div>
-    <div class="step reveal"><h3>Trabaja</h3><p>Elige un asistente y pide: anuncios, textos, código, imágenes, ideas…</p></div>
+    <div class="step reveal"><h3>Descarga y descomprime</h3><p>Baja <b>NexusIA.zip</b>, clic derecho › Extraer todo.</p></div>
+    <div class="step reveal"><h3>Instalar NexusIA.bat</h3><p>Doble clic. Si Windows avisa: Más información › Ejecutar de todas formas.</p></div>
+    <div class="step reveal"><h3>Asistente de configuración</h3><p>NexusIA se abre sola y te guía para conectar las IA gratis en 4 pantallas.</p></div>
+  </div>
+  <p style="text-align:center;margin-top:34px"><a class="btn" href="NexusIA.zip" download>⬇ Descargar NexusIA.zip</a></p>
+</div></section>
+
+<section id="guias" style="padding-top:20px"><div class="wrap">
+  <div class="reveal" style="text-align:center"><span class="eyebrow">Guías</span><h2>Todo explicado paso a paso</h2></div>
+  <div class="docs">
+    <a class="doc reveal" href="https://github.com/corderorauly-raullg57/nexoia/blob/main/INSTALACION.md" target="_blank" rel="noopener"><i>🚀</i><b>Instalación</b><span>Las 3 opciones, claves gratis con enlaces y solución de problemas.</span></a>
+    <a class="doc reveal" href="https://github.com/corderorauly-raullg57/nexoia/blob/main/GUIA.md" target="_blank" rel="noopener"><i>📘</i><b>Guía de uso</b><span>La pantalla, el motor, los agentes, imágenes y configuración.</span></a>
+    <a class="doc reveal" href="https://github.com/corderorauly-raullg57/nexoia/blob/main/CREAR-AGENTE.md" target="_blank" rel="noopener"><i>🧬</i><b>Crear agentes</b><span>Con el Creador o a mano: conocimiento, formulario, flujo y entrega.</span></a>
   </div>
 </div></section>
 
 <section id="preguntas" style="padding-top:20px"><div class="wrap">
-  <div class="reveal" style="text-align:center">
-    <span class="eyebrow">Preguntas</span>
-    <h2>Lo que más nos preguntan</h2>
-  </div>
-  <div class="faq reveal">
-    <details><summary>¿Necesito pagar alguna IA para usar NEXO?</summary><p>No. Sin claves funciona con AI Horde (gratis, más lenta), y con las claves gratis de Gemini, Groq, OpenRouter, Mistral, Cerebras o Pollinations responde al instante. Las de pago (OpenAI, Claude, DeepSeek, Grok) son opcionales.</p></details>
-    <details><summary>¿Qué pasa si una IA está bloqueada en mi país?</summary><p>NEXO la salta y usa la siguiente de tu lista. Por eso conviene tener dos o tres claves gratis: siempre habrá una que responda.</p></details>
-    <details><summary>¿Funciona sin Internet?</summary><p>Sí, si conectas tu propia IA con Ollama en tu computadora. Las demás IA necesitan conexión, pero la app carga aunque la conexión sea mala.</p></details>
-    <details><summary>¿Dónde quedan mis conversaciones y mis claves?</summary><p>Solo en tu computadora, dentro del navegador. NEXO no tiene servidor: habla directo con cada IA. Puedes hacer copia de seguridad cuando quieras.</p></details>
-    <details><summary>¿Sirve para mi negocio?</summary><p>Para eso está hecha: anuncios, atención a clientes, redes, presupuestos, catálogos, propuestas… Y con los packs por oficio tienes asistentes ya preparados para restaurantes, belleza, tiendas, servicios técnicos, profesores y freelancers.</p></details>
-    <details><summary>¿Cómo la consigo?</summary><p>Escríbenos por WhatsApp y te la enviamos con todo explicado. Te ayudamos a dejarla configurada.</p></details>
+  <div class="reveal" style="text-align:center"><span class="eyebrow">Preguntas</span><h2>Preguntas frecuentes</h2></div>
+  <div class="faq">
+    <details><summary>¿De verdad es gratis?</summary><p>Sí. NexusIA usa los créditos diarios gratis de servicios como Gemini, Groq, OpenRouter o Mistral, unidos con FreeLLMAPI. Cuando uno se agota, pasa al siguiente. Si algún día quieres más calidad, puedes activar IA de pago con tu propia clave.</p></details>
+    <details><summary>¿Necesito internet?</summary><p>Para las IA gratis de la nube, sí. Con la instalación Completa (Ollama) también funciona sin internet, con una IA más lenta en tu PC.</p></details>
+    <details><summary>¿Dónde quedan mis datos?</summary><p>En tu PC. Tus agentes, documentos y conversaciones se guardan en tu navegador. Puedes hacer copia con «Exportar todo».</p></details>
+    <details><summary>¿Necesito saber de IA o de programación?</summary><p>No. Los agentes te piden los datos con un formulario y el Creador de agentes los diseña por ti. Y si prefieres, te lo dejamos listo.</p></details>
+    <details><summary>¿Qué PC necesito?</summary><p>Windows 10 u 11 y un navegador (Chrome, Edge o Firefox). Para la opción Completa, 8 GB de RAM y 8 GB libres.</p></details>
+    <details><summary>¿Puedo vender mis agentes?</summary><p>Sí. Exporta tus agentes como paquete .nexus.json y quien tenga NexusIA solo tiene que importarlo.</p></details>
   </div>
 </div></section>
 
-<section class="final"><div class="wrap reveal">
-  <h2>Deja de saltar entre apps de IA</h2>
-  <p class="lead">Una sola app, todas las IA, en español. Pruébala y no vuelves atrás.</p>
-  <div class="ctas"><a class="btn" href="#" data-wa="Hola, quiero NEXO IA">💬 Quiero NEXO IA</a><a class="btn sec" href="https://github.com/corderorauly-raullg57/nexoia/blob/main/GUIA.md" target="_blank" rel="noopener">📘 Leer la guía</a></div>
+<section class="final"><div class="wrap">
+  <h2>Pon a trabajar la IA en tu negocio hoy</h2>
+  <p class="lead">Descárgala gratis o pide que te la dejemos lista con tus agentes.</p>
+  <div class="ctas"><a class="btn" href="NexusIA.zip" download>⬇ Descargar NexusIA</a><a class="btn sec" href="#" data-wa="Hola, quiero que me preparen NexusIA con agentes para mi negocio">💬 Hablar por WhatsApp</a></div>
 </div></section>
 
-<footer><div class="wrap">
-  <span><b style="color:var(--text)">NEXO IA</b> · by HiSpaNet</span>
-  <span>WhatsApp <a href="#" data-wa="Hola, tengo una pregunta sobre NEXO IA">+53 5508 1288</a> · <a href="mailto:hispa.net.world@gmail.com">hispa.net.world@gmail.com</a></span>
-</div></footer>
-
-<a class="wa" href="#" data-wa="Hola, quiero NEXO IA" aria-label="Escribir por WhatsApp">💬</a>
-
+<footer><div class="wrap"><span><b>NexusIA</b> · by <b>HiSpaNet</b></span><span>WhatsApp +53 5508 1288</span></div></footer>
+<a class="wa" href="#" data-wa="Hola, tengo una pregunta sobre NexusIA" aria-label="WhatsApp">💬</a>
 <script>
-document.querySelectorAll("[data-wa]").forEach(function (a) {
-  a.href = "https://wa.me/5355081288?text=" + encodeURIComponent(a.getAttribute("data-wa"));
-  a.target = "_blank"; a.rel = "noopener";
-});
-var io = "IntersectionObserver" in window ? new IntersectionObserver(function (es) {
-  es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("on"); io.unobserve(e.target); } });
-}, { threshold: 0.12 }) : null;
+document.querySelectorAll("[data-wa]").forEach(function (a) { a.href = "https://wa.me/5355081288?text=" + encodeURIComponent(a.getAttribute("data-wa")); a.target = "_blank"; a.rel = "noopener"; });
+var io = "IntersectionObserver" in window ? new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("on"); io.unobserve(e.target); } }); }, { threshold: .12 }) : null;
 document.querySelectorAll(".reveal").forEach(function (el) { if (io) io.observe(el); else el.classList.add("on"); });
 </script>
 </body>
